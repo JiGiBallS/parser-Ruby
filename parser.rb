@@ -8,7 +8,7 @@ puts "Getting start parser"
 
 PRODUCT_LIST_URL = "https://www.petsonic.com/snacks-huesos-para-perros/"
 
-CSV.open("products_csv", "w") do |csv|
+CSV.open("products.csv", "w") do |csv|
   csv << ["Name", "Price", "Image URL"]
 
   page = 1
